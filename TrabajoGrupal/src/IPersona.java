@@ -1,5 +1,6 @@
 
 public interface IPersona {
+	//gets y sets
 	
 	public String getsApellidos();
 	
