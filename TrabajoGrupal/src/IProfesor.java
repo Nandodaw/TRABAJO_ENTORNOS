@@ -1,6 +1,6 @@
 
 public interface IProfesor extends IPersona, ITrabajador{
-	//Creacion de interfaz
+	//Creacion de interfaz.
 	public String getsUniversidad();
 	
 	public void setsUniversidad(String sUniversidad);
