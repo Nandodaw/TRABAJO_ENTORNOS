@@ -89,5 +89,20 @@ public class Profesor {
 		
 	}
 	
+	public String toString() {
+		String sResultado = "";
+		if (!bFuncionario) {
+			sResultado = "PROFESOR CONTRATADO \n" + getsNombre() + " " + getsApellidos() + " " + getsDni() + "\n"
+					+ "Edad: " + getiEdad() + "\n" + "DNI: " + getsDni() + "\n" + "Sueldo: " + getiSueldo() + "\n"
+					+ "Antigüedad: " + getiAntiguedad() + "\n" + "Universidad: " + getsUniversidad() + "\n"
+					+ "Numero de Alumnos: " + getiNumeroAlumnos();
+		} else {
+			sResultado = "PROFESOR FUNCIONARIO \n" + getsNombre() + " " + getsApellidos() + " " + getsDni() + "\n"
+					+ "Edad: " + getiEdad() + "\n" + "DNI: " + getsDni() + "\n" + "Sueldo: " + getiSueldo() + "\n"
+					+ "Antigüedad: " + getiAntiguedad() + "\n" + "Universidad: " + getsUniversidad() + "\n"
+					+ "Numero de Alumnos: " + getiNumeroAlumnos();
+		}
+		return sResultado;
+	}
 
 }
