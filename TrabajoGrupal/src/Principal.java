@@ -13,7 +13,7 @@ public class Principal {
 		p1.setbFuncionario(false);
 		((ITrabajador) p2).setiSueldo(1400);
 		((ITrabajador) p2).setiAntiguedad(0);
-		((IProfesor) p2).setsUniversidad("Universidad Internacional de Andalucï¿½a");
+		((IProfesor) p2).setsUniversidad("Universidad Internacional de Andalucía");
 		((IProfesor) p2).setiNumeroAlumnos(350);
 		((IProfesor) p2).setbFuncionario(false);
 		p3.setiSueldo(1800);
@@ -21,7 +21,7 @@ public class Principal {
 		((IProfesor) p3).setsUniversidad("Universidad de Cï¿½diz");
 		((IProfesor) p3).setiNumeroAlumnos(220);
 		((IProfesor) p3).setbFuncionario(false);
-		p2.cumpleAnios();
+		p2.cumpleAinos();
 		p1.subirSueldo(20);
 		((IProfesor) p3).aprobarOposiciones();
 

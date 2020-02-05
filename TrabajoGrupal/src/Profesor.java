@@ -102,6 +102,11 @@ public class Profesor {
 	public void subirSueldo(int iPorcentaje) {
 		
 	}
+	public void cumpleAinos(){
+	}
+	
+	
+	
 	
 	public String toString() {
 		String sResultado = "";

@@ -18,4 +18,5 @@ public interface IPersona {
 	
 	public void setsNombre(String sNombre);
 	
+	public void cumpleAinos();
 }
