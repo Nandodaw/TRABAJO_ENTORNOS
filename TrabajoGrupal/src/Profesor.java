@@ -82,5 +82,12 @@ public class Profesor {
 	public void setbFuncionario(boolean bFuncionario) {
 		this.bFuncionario = bFuncionario;
 	}
+	
+	public void aprobarOposiciones() {
+	}
+	public void subirSueldo(int iPorcentaje) {
+		
+	}
+	
 
 }

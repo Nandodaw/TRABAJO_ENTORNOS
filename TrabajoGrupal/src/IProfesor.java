@@ -13,5 +13,5 @@ public interface IProfesor extends IPersona, ITrabajador{
 	
 	public void setbFuncionario(boolean bFuncionario);
 	
-	
+	public void aprobarOposiciones();
 }

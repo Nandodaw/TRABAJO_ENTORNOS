@@ -9,5 +9,5 @@ public interface ITrabajador {
 	
 	public void setiAntiguedad(int iAntiguedad);
 	 
-	
+	public void subirSueldo(int iPorcentaje);
 }
