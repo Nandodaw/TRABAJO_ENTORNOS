@@ -11,6 +11,18 @@ public class Profesor {
 	private int iNumeroAlumnos;
 	private boolean bFuncionario;
 
+	public Profesor(String sNombre, String sApellidos, String sDni, int iEdad) {
+		setsNombre(sNombre);
+		setsApellidos(sApellidos);
+		setsDni(sDni);
+		setiEdad(iEdad);
+		setiSueldo(iSueldo);
+		setiAntiguedad(iAntiguedad);
+		setsUniversidad(sUniversidad);
+		setiNumeroAlumnos(iNumeroAlumnos);
+		setbFuncionario(bFuncionario);
+	}
+
 	public String getsNombre() {
 		return sNombre;
 	}
