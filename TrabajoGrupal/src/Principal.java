@@ -16,6 +16,20 @@ public class Principal {
 		((IProfesor) p2).setsUniversidad("Universidad Internacional de Andaluc�a");
 		((IProfesor) p2).setiNumeroAlumnos(350);
 		((IProfesor) p2).setbFuncionario(false);
+		p3.setiSueldo(1800);
+		p3.setiAntiguedad(3);
+		((IProfesor) p3).setsUniversidad("Universidad de C�diz");
+		((IProfesor) p3).setiNumeroAlumnos(220);
+		((IProfesor) p3).setbFuncionario(false);
+		p2.cumpleAnios();
+		p1.subirSueldo(20);
+		((IProfesor) p3).aprobarOposiciones();
+
+		System.out.println(p1);
+		System.out.println("");
+		System.out.println(p2);
+		System.out.println("");
+		System.out.println(p3);
 		
 	}
 
