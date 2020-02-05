@@ -10,7 +10,9 @@ public class Profesor {
 	private String sUniversidad;
 	private int iNumeroAlumnos;
 	private boolean bFuncionario;
-
+	////////////////
+	 //Constructor//
+	////////////////
 	public Profesor(String sNombre, String sApellidos, String sDni, int iEdad) {
 		setsNombre(sNombre);
 		setsApellidos(sApellidos);
