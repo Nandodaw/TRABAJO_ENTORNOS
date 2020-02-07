@@ -20,7 +20,7 @@ Instalación de Eclipse
 # Console ⚙️
 Realizaremos unas pruebas para verificar que el código funciona.
 
-*CÓDIGO: Es el main a través del cuál el código a conjunto de sus interfaces y otra clase se ejecutará y mostrará los datos de salida del proyecto.
+* CÓDIGO: Es el main a través del cuál el código a conjunto de sus interfaces y otra clase se ejecutará y mostrará los datos de salida del proyecto.
 
 package Vista;
 
@@ -70,7 +70,7 @@ public class Principal {
 }
 
 
-*EJECUCIÓN DEL CÓDIGO: Muestra el resultado al ejecutar la clase MAIN.
+* EJECUCIÓN DEL CÓDIGO: Muestra el resultado al ejecutar la clase MAIN.
 
 PROFESOR CONTRATADO 
 Carlos Garcia Ramos 28.987.654-Z
