@@ -1,3 +1,4 @@
+package Interfaz;
 
 public interface IProfesor extends IPersona, ITrabajador{
 	//Creacion de interfaz.

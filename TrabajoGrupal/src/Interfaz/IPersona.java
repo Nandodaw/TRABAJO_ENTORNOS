@@ -1,3 +1,4 @@
+package Interfaz;
 
 public interface IPersona {
 	//gets y sets

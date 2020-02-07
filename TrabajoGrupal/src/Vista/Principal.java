@@ -1,3 +1,8 @@
+package Vista;
+import Interfaz.IPersona;
+import Interfaz.IProfesor;
+import Interfaz.ITrabajador;
+import Modelo.Profesor;
 
 public class Principal {
 
