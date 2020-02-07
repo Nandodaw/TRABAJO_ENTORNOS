@@ -1,5 +1,6 @@
 package Interfaz;
 
+
 public interface ITrabajador {
 
 	public int getiSueldo();

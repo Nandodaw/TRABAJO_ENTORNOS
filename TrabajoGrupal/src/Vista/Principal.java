@@ -7,9 +7,9 @@ import Modelo.Profesor;
 public class Principal {
 
 	public static void main(String[] args) {
-		IProfesor p1 = (IProfesor) new Profesor("Carlos", "García Ramos", "28.987.654-Z", 31);
-		IPersona p2 = (IPersona) new Profesor("Manuel", "Vázquez López", "16.085.624-A", 29);
-		ITrabajador p3 = (ITrabajador) new Profesor("Rosa", "Martos Rodríguez", "75.731.756-R", 27);
+		IProfesor p1 = (IProfesor) new Profesor("Carlos", "Garcia Ramos", "28.987.654-Z", 31);
+		IPersona p2 = (IPersona) new Profesor("Manuel", "Vazquez Lopez", "16.085.624-A", 29);
+		ITrabajador p3 = (ITrabajador) new Profesor("Rosa", "Martos Rodriguez", "75.731.756-R", 27);
 
 		p1.setiSueldo(1500);
 		p1.setiAntiguedad(1);
@@ -23,7 +23,7 @@ public class Principal {
 		((IProfesor) p2).setbFuncionario(false);
 		p3.setiSueldo(1800);
 		p3.setiAntiguedad(3);
-		((IProfesor) p3).setsUniversidad("Universidad de C�diz");
+		((IProfesor) p3).setsUniversidad("Universidad de Cadiz");
 		((IProfesor) p3).setiNumeroAlumnos(220);
 		((IProfesor) p3).setbFuncionario(false);
 		p2.cumpleAinos();

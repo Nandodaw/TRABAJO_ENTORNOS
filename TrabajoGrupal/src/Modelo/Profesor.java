@@ -1,6 +1,7 @@
 package Modelo;
+import Interfaz.IProfesor;
 
-public class Profesor {
+public class Profesor implements IProfesor {
 
 	private String sNombre;
 	private String sApellidos;
