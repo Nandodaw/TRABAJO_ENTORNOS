@@ -23,10 +23,15 @@ Realizaremos unas pruebas para verificar que el código funciona.
 *CÓDIGO: Es el main a través del cuál el código a conjunto de sus interfaces y otra clase se ejecutará y mostrará los datos de salida del proyecto.
 
 package Vista;
+
 import Interfaz.IPersona;
+
 import Interfaz.IProfesor;
+
 import Interfaz.ITrabajador;
+
 import Modelo.Profesor;
+
 
 public class Principal {
 
