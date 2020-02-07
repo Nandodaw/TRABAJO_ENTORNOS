@@ -1,7 +1,7 @@
 # TRABAJO_ENTORNOS 
 
 # ¿En qué consiste este proyecto? 🚀
-Se creará un proyecto en conjunto con varios colaboradores, en los cuales uno de ellos será el propietario de un repositorio en el cuál se tendrá un rotundo control de las versiones.
+Se creará un proyecto en conjunto con un propietario del repositorio y tres colaboradores, se tendrá un rotundo control de las versiones.
 
 # Software necesario. 📋
 Para la correcta realización del proyecto, será necesario los siguiente requisitos:
