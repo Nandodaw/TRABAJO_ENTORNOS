@@ -26,9 +26,9 @@ public class Principal {
 		((IProfesor) p3).aprobarOposiciones();
 
 		System.out.println(p1);
-		System.out.println(" ");
+		System.out.println("  ");
 		System.out.println(p2);
-		System.out.println(" ");
+		System.out.println("  ");
 		System.out.println(p3);
 		
 	}
